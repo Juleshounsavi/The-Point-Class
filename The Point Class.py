@@ -16,10 +16,10 @@ class Point:
             print("Error")    
 
 """
-Here is an example of usage of this class methods an dattributes:
+Here is an example of usage of this class methods and attributes:
 pt = Point(x=3.0)
 pt.reflect("y")
-print((pt.x, pt.y))
-pt.y = 4.0
-print(pt.distance_to_origin())
+print((pt.x, pt.y)) ==> (-3.0,0)
+pt.y = 4.0 ==> (-3.0,4.0)
+print(pt.distance_to_origin()) ==> 5
 """
